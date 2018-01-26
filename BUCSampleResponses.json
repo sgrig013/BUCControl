@@ -1,0 +1,11 @@
+{
+	"GetTemperature": "\r\nok tempC 32 binary 132 adc 1787\r\n",
+	"MuteBUC" : "\r\nok\r\n",
+	"UnmuteBUC":  "\r\nok\r\n",
+	"GetMuteState":  "\r\nok gate 1 uc 0 in 0 bias 1 ovrd 1 cmd 0 fault 1\r\n",
+	"GetAttenuation":  "\r\nok value 23\r\n",
+	"SetAttenuation" : "\r\nok\r\n",
+	"GetSerialNumber": "\r\nok sn 30124\r\n",
+	"GetPower": "\r\nok dBm +18.5 binary 585 adc 19\r\n",
+	"GetStatusOfAllFaults": "\r\nok mute 0 overTemp 1 pll 0\r\n"
+}
